@@ -1,0 +1,50 @@
+/* CSS files add styling rules to your content */
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p {
+  font-family:'open sans', sans-serif;
+  margin: 10px 200px 20px 200px;
+  font-size: 20px;
+  font-style: bold;
+  color: blue;
+}
+
+h1 {
+  font-family: 'roboto', sans-serif;
+  font-style: bold;
+  color: cyan;
+}
+
+button {
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px 5px;
+  background-color: rgb(74, 144, 226);
+  border: 0;
+  cursor: pointer;
+  display:inline-block;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  width: 50%;
+}
+
+#profile {
+  width: 20%;
+}
+
+#page {
+  background-image:    url("blank.png");
+  font-size: 3em;
+  padding: 30px;
+}
